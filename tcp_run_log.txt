@@ -1,0 +1,16 @@
+=== Client 运行日志 ===
+启动时间: 2026-06-11 15:33:10
+Server: 172.20.7.159:8888
+文件: input.txt, 总长度: 159
+Lmin=50, Lmax=100, Seed=42
+N=2, 各块长度: [90, 69]
+
+[2026-06-11 15:33:10.092] 连接到服务器 172.20.7.159:8888
+[2026-06-11 15:33:10.092] 发送 Initialization 报文: Type=1, N=2
+[2026-06-11 15:33:10.092] 收到 Agree 报文: Type=2
+[2026-06-11 15:33:10.092] 发送 reverseRequest 报文: Type=3, Length=90
+[2026-06-11 15:33:10.092] 收到 reverseAnswer 报文: Type=4, Length=90, Data=ecnoc latnemadnuf a si gnimmargorp tekcos PCT .god...
+[2026-06-11 15:33:10.092] 发送 reverseRequest 报文: Type=3, Length=69
+[2026-06-11 15:33:10.092] 收到 reverseAnswer 报文: Type=4, Length=69, Data=.tcejorp esruoc ym rof elif tset a si sihT .gnikro...
+[2026-06-11 15:33:10.097] 完成，输出文件: output.txt
+[2026-06-11 15:33:10.097] 连接关闭
